@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("Thermometer\ Up\ and\ Down\ animation\ on\ White\ Background.jpg");
+}
+
+.temp-conv{
+    padding-top: 21px;
+    background-color: antiquewhite;
+    height: 15rem;
+    width: 16rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(108, 102, 102);
+}
+
+h2{
+    color: rgb(8, 108, 223);
+}
+
+#value{
+    margin-bottom: 6%;
+    width: 50%;
+    text-align: center;
+    font-size: 1rem;
+    border: 1.7px solid black;
+    outline: none;
+    border-radius: 3px;
+}
+
+label{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 10px;
+    height: 1.7em;
+    width: 4em;
+    font-size: 0.9em;
+    border-radius: 3px;
+}
+
+#res{
+    margin-top: 5px;
+    font-weight: 550;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
