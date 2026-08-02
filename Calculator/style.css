@@ -1,0 +1,56 @@
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #261447;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#inputValue{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: #32244c;
+    color: white;
+    outline: none;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#numbers{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: #4C3C67;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(262, 26%, 40%);
+}
+
+button:active{
+    background-color: hsl(262, 26%, 50%);
+}
