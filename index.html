@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub User Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  <main class="main-section">
+    <div class="hero-section">
+      <p>GITHUB PROFILE LOOKUP</p>
+      <h1>User viewer</h1>
+      <p>Search a GitHub username to view its public profile information</p>
+    </div>
+
+    <div class="user-input-container">
+      <p>GitHub username</p>
+      <div class="user-input">
+        <input type="text" name="input" placeholder="e.g. octocat" class="input">
+        <button class="submit">Search</button>
+      </div>
+    </div>
+
+    <div class="users-information">
+      <img src='https://avatars.githubusercontent.com/u/9919?s=280&v=4'
+          alt="not found" >
+      
+      <div class="users-details">
+        <div class="github-user">
+          <p class="heading-start">GITHUB USER</p>
+          <h2 class="username">Search for a profile</h2>
+          <p class="heading-last">Enter a user above to get started</p>
+          <div class="conatiner">
+            <div>
+              <p>Login Name</p>
+              <span class="loginName"></span>
+            </div>
+            <div>
+              <p>User Id</p>
+              <span class="userId"></span>
+            </div>
+            <div>
+              <p>Avatar URL</p>
+              <span class="avatarURL"></span>
+            </div>
+            <div>
+              <p>User View</p>
+              <span class="UserView"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <main class="page-shell">
+    <section class="search-panel" aria-labelledby="page-title">
+      <p class="eyebrow">GitHub profile lookup</p>
+      <h1 id="page-title">User viewer</h1>
+      <p class="subtitle">Search a GitHub username to view its public profile information.</p>
+
+      <form id="user-form" class="search-form">
+        <label for="username">GitHub username</label>
+        <div class="input-row">
+          <input id="username" name="username" type="text" placeholder="e.g. octocat" autocomplete="off" required>
+          <button type="submit">Search</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="user-card" aria-live="polite" aria-labelledby="profile-heading">
+      <div class="avatar-wrap">
+        <img id="avatar" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Default GitHub avatar">
+      </div>
+
+      <div class="profile-content">
+        <p class="card-label">GitHub user</p>
+        <h2 id="profile-heading">Search for a profile</h2>
+        <p id="status" class="status">Enter a username above to get started.</p>
+
+        <dl class="user-details">
+          <div>
+            <dt>Login name</dt>
+            <dd id="login-name">—</dd>
+          </div>
+          <div>
+            <dt>ID</dt>
+            <dd id="user-id">—</dd>
+          </div>
+          <div>
+            <dt>Avatar URL</dt>
+            <dd><a id="avatar-url" href="#" target="_blank" rel="noopener">—</a></dd>
+          </div>
+          <div>
+            <dt>User view</dt>
+            <dd id="user-view">—</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main> -->
